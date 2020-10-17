@@ -9,7 +9,7 @@ class Employee {
         return this.name;
     }
 
-    gitId(){
+    getId(){
         return this.id;
     }
 

@@ -70,6 +70,9 @@ function addEmployee() {
                     ]).then(function (data) {
                         if (data.goAgain === "Yes") {
                             addEmployee();
+                        } else {
+                            var a = render(arr);
+                            console.log(a);
                         }
                     })
                 })
@@ -98,6 +101,9 @@ function addEmployee() {
                     ]).then(function (data) {
                         if (data.goAgain === "Yes") {
                             addEmployee();
+                        } else {
+                            var a = render(arr);
+                            console.log(a);
                         }
                     })
                 })
@@ -126,6 +132,9 @@ function addEmployee() {
                     ]).then(function (data) {
                         if (data.goAgain === "Yes") {
                             addEmployee();
+                        } else {
+                            var a = render(arr);
+                            console.log(a);
                         }
                     })
                 })
